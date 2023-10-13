@@ -11,4 +11,6 @@ Try moving the print statement inside the scope to see if we can get rid of that
 Below this I also create a new variable with the exact same name as the one in the inner scope. This doesn't cause any problems simply because we are working in a different scope, so the name clash does not matter.
 
 The section below that we can see an if statement that compares a local variable against another variable that is not defined in the same function. You may be wondering how this is possible? The variable "GlobalNumber" is defined outside of any scope in the global
-namespace, which means we are able to access it at any point in this file. Once again you might be able to see that this section also has an error
+namespace, which means we are able to access it at any point in this file. Once again you might be able to see that this section also has an error. Have a little think about possible ways that we could fix this error? How about we move the initial declaration of the
+IfNumber variable to before the if statement. We can then set the value of IfNumber inside the if statement. This should fix the problem and get rid of the error. This works as we declare the variable in the outer scope which means we can access it in the inner
+then print out the variable as we print in the same scope as it was declared.
