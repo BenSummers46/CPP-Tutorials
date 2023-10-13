@@ -14,3 +14,23 @@ The section below that we can see an if statement that compares a local variable
 namespace, which means we are able to access it at any point in this file. Once again you might be able to see that this section also has an error. Have a little think about possible ways that we could fix this error? How about we move the initial declaration of the
 IfNumber variable to before the if statement. We can then set the value of IfNumber inside the if statement. This should fix the problem and get rid of the error. This works as we declare the variable in the outer scope which means we can access it in the inner
 then print out the variable as we print in the same scope as it was declared.
+
+I want you to read through the final block of code and run it to see if you understand why certain things are happening. Once you have see if you can answer the following questions:
+
+	1. Why does the print statement inside the curly brackets print 200?
+	2. Why does the print statement outside the curly brackets print 100?
+	3. Why can we declare 2 variables with the exact same name?
+	4. How can we access the value of "LocalPtr" outside the scope declared by the curly brackets?
+
+If you need any help or explanantion please ask me.
+
+Task:
+	Look at the function BrokenScopeFunction():
+	
+	- Fix the function so that it contains no errors. The sum variable should contain the sum of the numbers 0-24 and should be print from outside the for loop.
+		Think about how where you can declare sum to fix this problem.
+	- What value will be printed out at the end of the function when we print the value of b? Give an explanation here as to why this happens?
+	- What will be printed by the final print statement if you change the value of variable "a" in the outer most scope? Why?
+
+	You can test BrokenScopeFunction() by calling it in main().
+

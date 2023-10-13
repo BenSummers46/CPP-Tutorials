@@ -1,0 +1,4 @@
+﻿  ValueorReference.cpp
+G:\Personal Stuff\C++ Stuff for Foster\CPP-Tutorials\Tutorial 7 - Pass by Value or Reference\ValueorReference.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+G:\Personal Stuff\C++ Stuff for Foster\CPP-Tutorials\Tutorial 7 - Pass by Value or Reference\ValueorReference.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Tutorial 7 - Pass by Value or Reference.vcxproj -> G:\Personal Stuff\C++ Stuff for Foster\CPP-Tutorials\x64\Debug\Tutorial 7 - Pass by Value or Reference.exe

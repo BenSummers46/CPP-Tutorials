@@ -46,8 +46,33 @@ void IntroToScope() {
 	b = nullptr;
 }
 
+void BrokenScopeFunction() {
+	int a = 25;
+	int* b = new int(25);
+	{
+		if (a == *b) {
+			for (int i = 0; i < 25; ++i) {
+				int sum = sum + i;
+			}
+			std::cout << sum << std::endl;
+			int a = 135;
+		}
+		else {
+			int a = 125;
+			*b += a;
+			{
+				int* b = new int(-1);
+			}
+		}
+	}
+
+	std::cout << *b << std::endl;
+}
+
 int main() {
 	IntroToScope();
+
+
 	
 	return 0;
 }
