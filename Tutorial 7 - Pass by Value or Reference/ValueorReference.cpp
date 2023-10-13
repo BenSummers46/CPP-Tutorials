@@ -57,4 +57,6 @@ int main() {
 
 	SwapReference(x, y);
 	std::cout << x << " " << y << std::endl;
+
+	return 0;
 }
