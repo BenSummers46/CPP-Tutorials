@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial 8 - Classes", "Tut
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial 9 - Inheritance", "Tutorial 9 - Inheritance\Tutorial 9 - Inheritance.vcxproj", "{089B31A6-E54B-4F87-B420-588040B5369D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorials 10 - Knowledge Test 1", "Knowledge Test 1\Knowledge Test 1.vcxproj", "{1920FC55-B71C-4B14-B642-E106F8CC796F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{089B31A6-E54B-4F87-B420-588040B5369D}.Release|x64.Build.0 = Release|x64
 		{089B31A6-E54B-4F87-B420-588040B5369D}.Release|x86.ActiveCfg = Release|Win32
 		{089B31A6-E54B-4F87-B420-588040B5369D}.Release|x86.Build.0 = Release|Win32
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Debug|x64.ActiveCfg = Debug|x64
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Debug|x64.Build.0 = Debug|x64
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Debug|x86.ActiveCfg = Debug|Win32
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Debug|x86.Build.0 = Debug|Win32
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Release|x64.ActiveCfg = Release|x64
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Release|x64.Build.0 = Release|x64
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Release|x86.ActiveCfg = Release|Win32
+		{1920FC55-B71C-4B14-B642-E106F8CC796F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
