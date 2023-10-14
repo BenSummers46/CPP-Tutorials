@@ -1,7 +1,8 @@
 Congratulations on making it to the last challenge in this series, I hope you've found the experience so far to be enlightening and useful. With any luck you haven't found any of the tasks up until now too hard, but at the same time
 I hope that they weren't too easy.
 
-For the last challenge I am not going to give you any boiler plate code, meaning you must write the entire program from scratch.
+For the last challenge I am not going to give you any boiler plate code, meaning you must write the entire program from scratch. Please for the love of god make sure that you place your code in the right place in your solution
+That means that .h files go in the Header file folder, and .cpp files in the Source files directory.
 
 Polynomial Equation Program:
 	An example of a polynomial equation looks like this:

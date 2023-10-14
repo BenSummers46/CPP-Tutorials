@@ -40,6 +40,7 @@ void MainTask() {
 	delete p1;
 	delete p3;
 	p1 = nullptr;
+	p2 = nullptr;
 	p3 = nullptr;
 }
 

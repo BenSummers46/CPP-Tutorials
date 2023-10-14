@@ -19,7 +19,7 @@ void StackVsHeap() {
 	// b must be manually deleted by the programmer as it is on the heap.
 	delete b;
 	b = nullptr;
-} // Once we leave the scope for variable a it will be automatically free'd.
+} // Once we leave the scope for variable 'a' it will be automatically free'd.
 
 
 int main() {

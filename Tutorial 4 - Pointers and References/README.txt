@@ -50,7 +50,7 @@ Now I will introduce a few new keywords that you will need to know:
 		delete number; 
 		number = nulltpr;
 
-	- nulltpr : this is a new type that we have not used yet. A nullptr is a data type that shows us that we are poiting to a non-valid memory address. Trying to access something that is a nullptr will result in undefined behaviour.
+	- nullptr : this is a new type that we have not used yet. A nullptr is a data type that shows us that we are poiting to a non-valid memory address. Trying to access something that is a nullptr will result in undefined behaviour.
 		When deleting a pointer using "delete" we must then set the variable to have the value of nullptr to stop any unwanted behaviour or errors.
 
 		number = nullptr;

@@ -28,6 +28,8 @@ In the example in StackandHeap.cpp you can see that we create a new integer on t
 
 
 Task:
+	- Understand what is happening in the example program in StackandHeap.cpp
+	
 	- Create a new function that allocates two float variables; one on the stack and one on the heap with values of your choice.
 	- Check if the values of each variable are equal to one another OR if the references are the same, if either are true return true else return false.
 	- Ensure all memory you allocate is correctly disposed of. 
