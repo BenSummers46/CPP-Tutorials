@@ -1,0 +1,3 @@
+﻿  Source.cpp
+G:\Personal Stuff\C++ Stuff for Foster\CPP-Tutorials\Knowledge Test 1\Source.cpp(79,21): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Knowledge Test 1.vcxproj -> G:\Personal Stuff\C++ Stuff for Foster\CPP-Tutorials\x64\Debug\Tutorials 10 - Knowledge Test 1.exe
