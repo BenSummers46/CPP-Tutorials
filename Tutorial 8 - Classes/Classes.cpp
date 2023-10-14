@@ -10,5 +10,8 @@ int main() {
 	Enemy2->SetScore(25);
 	std::cout << Enemy2->GetCurrentScore() << std::endl;
 
+	delete Enemy2;
+	Enemy2 = nullptr;
+	
 	return 0;
 }

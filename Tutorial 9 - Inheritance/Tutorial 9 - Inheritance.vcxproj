@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2d67f306-95e9-490f-8657-523cb22eb8f4}</ProjectGuid>
-    <RootNamespace>Tutorial8Classes</RootNamespace>
+    <ProjectGuid>{089b31a6-e54b-4f87-b420-588040b5369d}</ProjectGuid>
+    <RootNamespace>Tutorial9Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,13 +142,7 @@
     <Text Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Classes.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="Player.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Player.h" />
+    <ClCompile Include="Inheritance.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
