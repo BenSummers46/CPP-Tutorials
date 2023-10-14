@@ -142,7 +142,13 @@
     <Text Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArmedEnemy.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Inheritance.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArmedEnemy.h" />
+    <ClInclude Include="Enemy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
